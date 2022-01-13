@@ -1,7 +1,7 @@
 {
-  "name": "@lc-cn/ts-dev-template",
-  "version": "1.0.0",
-  "description": "ts开发环境配置",
+  "name": "@lc-cn/utils",
+  "version": "0.0.0",
+  "description": "常用JS工具函数库",
   "main": "lib/index.js",
   "scripts": {
     "start": "node .",
