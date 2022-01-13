@@ -1,6 +1,6 @@
 {
   "name": "@lc-cn/utils",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "常用JS工具函数库",
   "main": "lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lc-cn/ts-dev-template.git"
+    "url": "git+https://github.com/lc-cn/utils.git"
   },
   "keywords": [
     "ts",
@@ -22,9 +22,9 @@
   "author": "凉菜",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lc-cn/ts-dev-template/issues"
+    "url": "https://github.com/lc-cn/utils/issues"
   },
-  "homepage": "https://github.com/lc-cn/ts-dev-template#readme",
+  "homepage": "https://github.com/lc-cn/utils#readme",
   "devDependencies": {
     "@types/node": "latest",
     "ts-node-dev": "latest",
