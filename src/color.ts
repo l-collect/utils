@@ -1,4 +1,4 @@
-import regexp from './regexp'
+import {regexp} from './regexp'
 export function isHex(str) {
     return regexp.hexColor.test(str);
 }
