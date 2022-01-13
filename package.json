@@ -1,6 +1,6 @@
 {
   "name": "@lc-cn/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "常用JS工具函数库",
   "main": "lib/index.js",
   "scripts": {

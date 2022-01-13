@@ -1,7 +1,7 @@
 /**
  * 存储
  */
-export function set(key, value) {
+function set(key, value) {
     if (!key.trim()) { return; }
 
     if (typeof value !== 'string') {
@@ -12,7 +12,7 @@ export function set(key, value) {
 /**
  * 获取
  */
-export function get(key) {
+function get(key) {
     if (!key.trim()) { return; }
     const value = window.localStorage.getItem(key);
     try {
@@ -24,7 +24,7 @@ export function get(key) {
 /**
  * 删除
  */
-export function remove(key) {
+function remove(key) {
     if (!key) { return; }
     window.localStorage.removeItem(key);
 }
